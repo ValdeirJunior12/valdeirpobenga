@@ -1,0 +1,59 @@
+body { background-image: url('nvidia-geforce-computer-technology-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: rgb(0, 255, 55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: darkred;
+}
+
+.titulo {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.paragrafo {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bold;
+    color: white; 
+}
+.imagens-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagem {
+    max-width: 100%; 
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px; 
+}
